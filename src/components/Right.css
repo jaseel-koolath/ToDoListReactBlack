@@ -1,0 +1,8 @@
+.right {
+  text-align: right;
+  margin-right: 10%;
+}
+
+.right > p {
+  font-size: small;
+}

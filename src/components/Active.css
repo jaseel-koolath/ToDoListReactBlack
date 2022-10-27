@@ -1,0 +1,43 @@
+.active {
+  text-align: center;
+  position: relative;
+}
+.text-box {
+  border: solid rgba(255, 255, 255, 0.3);
+  padding: 10px;
+  width: 50%;
+  height: 2.5vh;
+}
+.text-box:hover,
+.text-box:focus {
+  border: solid rgba(255, 255, 255, 1);
+  outline: none;
+}
+.add {
+  position: absolute;
+  right: 25%;
+  top: 2vh;
+  cursor: pointer;
+}
+
+.item {
+  display: flex;
+  border: solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  margin: 2% 5%;
+  padding: 1% 2%;
+  position: relative;
+  align-items: center;
+}
+.item:hover {
+  border: solid rgba(255, 255, 255, 1);
+}
+
+.item input {
+  margin-right: 20px;
+}
+
+.del {
+  position: absolute;
+  right: 5%;
+}
